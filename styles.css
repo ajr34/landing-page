@@ -1,7 +1,6 @@
 :root{
     font-size: 62.5%;
     box-sizing: border-box;
-    padding: 10px;
     font-family: sans-serif;
 }
 
@@ -39,11 +38,11 @@ a{
 .flex--center{
     justify-content: center;
     align-items: center;
-    gap: 4rem;
 }
 
 img{
-    max-width: 400px;
+    max-width: 200px;
+    height: auto;
 }
 
 
@@ -53,7 +52,7 @@ img{
     color: #f9faf8;
 }
 
-.hero--textbox{
+.subtext{
     margin-top: 0;
     width: 70ch;
     font-size: 1.8rem;
@@ -78,4 +77,54 @@ img{
 
 .section-padding{
 padding: 10rem 0;
+}
+
+/* Information block */
+.info-heading{
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.flex--column{
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.info-subtext{
+    text-align: center;
+}
+
+.top-padding{
+    padding-top: 5rem;;
+}
+
+/* Quote */
+.quote{
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 100;
+    color: #393939;
+    margin: 0;
+    text-align: left;
+    padding: 0 20rem;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 0 20rem;
+    margin: 0;
+}
+
+.quote-bg{
+    background: #e5e7eb;
+}
+
+.quote-block{
+    width: 600px;
+    height: auto;
+    margin: 0;
 }
