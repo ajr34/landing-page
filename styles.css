@@ -53,7 +53,7 @@ img{
 }
 
 .subtext{
-    margin-top: 0;
+    margin: 0;
     width: 70ch;
     font-size: 1.8rem;
     color: #e5e7eb;
@@ -127,4 +127,29 @@ padding: 10rem 0;
     width: 600px;
     height: auto;
     margin: 0;
+}
+
+/* CTA Card */
+
+.cta-card{
+    border-radius: 5px;
+    height: 10rem;
+    max-width: 90rem;
+    background: #3882f6;
+    padding: 2rem 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #e5e7eb;
+}
+
+.button-outline{
+    border-radius: 5px;
+    padding: 0.8rem 3rem;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
 }
